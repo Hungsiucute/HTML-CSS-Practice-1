@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* { box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4;
+    color: #4b4b4b;
+}
+
+/* -----------------------------------------------------------------------------------------------*\
+                                        # HEADER
+\*----------------------------------------------------------------------------------------------- */
+
+#header {
+  background: url('../assets/img/thanhpho.png');
+  background-color: #ebcb80;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 120px;
+  padding-top: 80px;
+}
+
+/*============================================== nav =============================================*/
+
+#header .nav {
+  top: 0px;
+  position: fixed;
+  width: 100%;
+  color: aliceblue;
+  padding: 30px 80px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #4b4b4b;
+}
+
+#header .nav .nav_logo p {
+  font-weight: bold;
+  font-size: 30px;
+  color:#ebcb80;
+}
+
+#header .nav .nav_link {
+  display: flex;
+}
+#header .nav .nav_link li {
+  margin-top: 10px;
+  list-style: none;
+  margin-right: 20px;
+}
+
+#header .nav .nav_link li:hover{
+  border-bottom: 2px solid white;
+}
+
+#header .nav .nav_link a {
+  text-decoration: none;
+  color:white;
+}
+
+#header .nav .nav_link .Take_a_tour {
+  padding: 10px 30px;
+  border: 1px solid white;
+  background-color: #4b4b4b;
+  border-radius: 30px;
+}
+
+#header .nav .nav_link .Take_a_tour:hover{
+  border: 2px solid white;
+}
+
+/*======================================= header body ============================================*/
+
+#header .header_body {
+  margin-top: 150px;
+  text-align: center;
+}
+
+#header .header_body .header_title {
+  font-size: 14px;
+  margin-bottom: 32px;
+}
+
+#header .header_body .header_title p {
+  font-weight: bold;
+  font-size: 34px;
+}
+
+#header .header_body .header_button {
+  margin-bottom: 50px;
+}
+
+#header .header_body .header_button .text{
+  padding: 5px 10px;
+  border: 1px solid black;
+  border-radius: 3px;
+  background-color: transparent;
+  margin-right: 20px;
+}
+#header .header_body .header_button .submit{
+  padding: 5px 40px;
+  border: 1.5px solid black;
+  border-radius: 30px;
+  background-color: transparent;
+}
+
+#header .header_body .header_button .submit:hover {
+  background-color: #4b4b4b;
+  color: aliceblue;
+}
+#header .header_body .icon ul li {
+  display: inline-block;
+  margin: 0 5px;
+  padding: 10px 10px;
+  border-radius: 100%;
+  background: #4b4b4b;
+}
+
+#header .header_body .icon ul li .fa-plane , .fa-wallet , .fa-briefcase {
+  background-color: #4b4b4b;
+  color:white;
+}
+#header .header_body .icon ul li:hover {
+  transform: scale(1.2);
+}
+/* -----------------------------------------------------------------------------------------------*\
+                                        # SECTION: Our_team
+\*----------------------------------------------------------------------------------------------- */
+
+#Our_team .container{
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0 30px;
+}
+
+#Our_team .container h1 {
+  text-align: center;
+}
+
+/*======================================= images_1 ============================================*/
+
+#Our_team .images_1 {
+  display: flex;
+  justify-content: space-around;
+  padding:  30px;
+}
+
+#Our_team .images_1 .image{
+  display: flex;
+  text-align:left;
+  padding: 10px;
+}
+
+#Our_team .images_1 .image img{
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+/*======================================= images_2 ============================================*/
+
+#Our_team .images_2 {
+  display: flex;
+  justify-content: space-around;
+  padding:  30px;
+}
+
+#Our_team .images_2 .image{
+  display: flex;
+  text-align:left;
+  padding: 10px;
+}
+
+#Our_team .images_2 .image img{
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
