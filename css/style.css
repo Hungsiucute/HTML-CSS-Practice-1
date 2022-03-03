@@ -4,7 +4,6 @@
     padding: 0;
     font-family: 'Roboto', sans-serif;
     line-height: 1.4;
-    color: #4b4b4b;
 }
 
 /* -----------------------------------------------------------------------------------------------*\
@@ -65,13 +64,14 @@
   border-radius: 30px;
 }
 
-#header .nav .nav_link .Take_a_tour:hover{
+#header .nav .nav_link .Take_a_tour:hover {
   border: 2px solid white;
 }
 
 /*======================================= header body ============================================*/
 
 #header .header_body {
+  color:#4b4b4b;
   margin-top: 150px;
   text-align: center;
 }
@@ -90,14 +90,14 @@
   margin-bottom: 50px;
 }
 
-#header .header_body .header_button .text{
+#header .header_body .header_button .text {
   padding: 5px 10px;
   border: 1px solid black;
   border-radius: 3px;
   background-color: transparent;
   margin-right: 20px;
 }
-#header .header_body .header_button .submit{
+#header .header_body .header_button .submit {
   padding: 5px 40px;
   border: 1.5px solid black;
   border-radius: 30px;
@@ -127,7 +127,8 @@
                                         # SECTION: Our_team
 \*----------------------------------------------------------------------------------------------- */
 
-#Our_team .container{
+#Our_team .container {
+  color: #4b4b4b;
   margin: 0 auto;
   overflow: hidden;
   padding: 0 30px;
@@ -145,19 +146,22 @@
   padding:  30px;
 }
 
-#Our_team .images_1 .image{
+#Our_team .images_1 .image {
   display: flex;
   text-align:left;
   padding: 10px;
 }
 
-#Our_team .images_1 .image img{
+#Our_team .images_1 .image img {
   width: 80px;
   height: 80px;
   margin-bottom: 10px;
   margin-right: 10px;
 }
 
+#Our_team .images_1 .image img:active {
+  transform: scale(3.0);
+}
 /*======================================= images_2 ============================================*/
 
 #Our_team .images_2 {
@@ -166,15 +170,218 @@
   padding:  30px;
 }
 
-#Our_team .images_2 .image{
+#Our_team .images_2 .image {
   display: flex;
   text-align:left;
   padding: 10px;
 }
 
-#Our_team .images_2 .image img{
+#Our_team .images_2 .image img {
   width: 80px;
   height: 80px;
   margin-bottom: 10px;
   margin-right: 10px;
+}
+
+#Our_team .images_2 .image img:active {
+  transform: scale(3.0);
+}
+/* -----------------------------------------------------------------------------------------------*\
+                                        # SECTION: Choose_Your_Plan
+\*----------------------------------------------------------------------------------------------- */
+#Choose_Your_Plan {
+  padding-top: 30px;
+  background: #4b4b4b;
+  color: aliceblue;
+}
+/*===================================== background:black =========================================*/
+#Choose_Your_Plan h2 {
+  text-align: center;
+}
+
+#Choose_Your_Plan .container {
+  margin: 0 80px;
+  display: flex;
+}
+
+#Choose_Your_Plan fieldset {
+  border: none;
+  border-radius: 10px;
+  padding: 20px 20px;
+  margin:50px 30px;
+  width: 280px;
+  text-align: center;
+}
+
+#Choose_Your_Plan fieldset:active {
+  transform: scale(1.2);
+} 
+
+.money { 
+  margin: 10px 0;
+  margin-left: 80px;
+  display: flex;
+}
+
+.purchase_platinum .money { 
+  margin-left: 65px;
+}
+
+.money .number {
+  margin-top: -10px;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+#Choose_Your_Plan .container button {
+  padding: 5px 40px;
+  border: none;
+  border-radius: 30px;
+}
+
+#Choose_Your_Plan .container button:hover {
+  background-color: aqua;
+  color: #4b4b4b;
+}
+
+.purchase_silver {
+  background: #4b4b4b;
+  background-color: rgb(255, 255, 255,0.12);
+  box-shadow: -1px 2px 10px 0px black;
+}
+
+.purchase_gold {
+  color: #4b4b4b;
+  background-color:#ebcb80;
+  box-shadow: -1px 2px 10px 0px black;
+}
+
+.purchase_platinum {
+  background: black;
+  background-color: rgb(255, 255, 255,0.0005);
+  box-shadow: -1px 2px 10px 0px black;
+}
+
+.purchase_silver h3, .purchase_platinum h3 {
+  color:#ebcb80;
+}
+
+.purchase_silver button, .purchase_platinum button {
+  background-color: #ebcb80;
+}
+
+.purchase_gold button {
+  background-color:#4b4b4b;
+  color: aliceblue;
+}
+
+/*===================================== background:white =========================================*/
+.information {
+  padding: 30px 30px;
+  background-color: aliceblue;
+  color: #4b4b4b;
+  display: flex;
+  justify-content: space-around;
+}
+
+.information_main {
+  width: 300px;
+  text-align: center;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  margin-left: 40px;
+}
+
+.information_main ul {
+  list-style: circle;
+  display: flex;
+}
+
+.information_main ul li {
+  margin: 0 20px;
+  font-size: 200%;
+}
+
+.list .disc {
+  list-style: disc;
+}
+
+.return, .next {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #4b4b4b;
+  background-color: aliceblue;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.return:hover, .next:hover {
+  background-color: #4b4b4b;
+  color: aliceblue;
+}
+
+.return:active, .next:active {
+  transform: scale(1.2);
+}
+
+.information img:hover {
+  transform: scale(1.2);
+}
+
+/* -----------------------------------------------------------------------------------------------*\
+                                        # SECTION: Advantages
+\*----------------------------------------------------------------------------------------------- */
+#Advantages {
+  padding: 30px 30px;
+  background: #4b4b4b;
+  color: aliceblue;
+}
+
+#Advantages h2,p {
+  text-align: center;
+}
+
+#Advantages h3 {
+color: #ebcb80;
+}
+
+#Advantages .container {
+  margin: 0 80px;
+  display: flex;
+}
+
+#Advantages fieldset {
+  border: none;
+  border-radius: 10px;
+  padding: 20px 20px;
+  margin:50px 30px;
+  width: 280px;
+  text-align: center;
+}
+
+#Advantages fieldset:active {
+  transform: scale(1.2);
+} 
+
+#Advantages .container button {
+  background-color: #ebcb80;
+  padding: 5px 40px;
+  border: none;
+  border-radius: 30px;
+}
+
+#Advantages .container button:hover {
+  background-color: aqua;
+  color: #4b4b4b;
+}
+
+.find_more {
+  background: black;
+  background-color: rgb(255, 255, 255,0.0005);
+  box-shadow: -1px 2px 10px 0px black;
 }
