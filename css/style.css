@@ -11,7 +11,7 @@
 \*----------------------------------------------------------------------------------------------- */
 
 #header {
-  background: url('../assets/img/thanhpho.png');
+  background: url('../assets/img/background/thanhpho.png');
   background-color: #ebcb80;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -138,7 +138,6 @@
   text-align: center;
 }
 
-/*======================================= images_1 ============================================*/
 
 #Our_team .images_1 {
   display: flex;
@@ -162,7 +161,6 @@
 #Our_team .images_1 .image img:active {
   transform: scale(3.0);
 }
-/*======================================= images_2 ============================================*/
 
 #Our_team .images_2 {
   display: flex;
@@ -194,7 +192,7 @@
   background: #4b4b4b;
   color: aliceblue;
 }
-/*===================================== background:black =========================================*/
+
 #Choose_Your_Plan h2 {
   text-align: center;
 }
@@ -218,13 +216,9 @@
 } 
 
 .money { 
-  margin: 10px 0;
-  margin-left: 80px;
   display: flex;
-}
-
-.purchase_platinum .money { 
-  margin-left: 65px;
+  justify-content: center;
+  margin: 10px 0px;
 }
 
 .money .number {
@@ -275,7 +269,6 @@
   color: aliceblue;
 }
 
-/*===================================== background:white =========================================*/
 .information {
   padding: 30px 30px;
   background-color: aliceblue;
@@ -385,3 +378,99 @@ color: #ebcb80;
   background-color: rgb(255, 255, 255,0.0005);
   box-shadow: -1px 2px 10px 0px black;
 }
+
+/* -----------------------------------------------------------------------------------------------*\
+                                        # SECTION: Places
+\*----------------------------------------------------------------------------------------------- */
+
+#Places {
+  color: #4b4b4b;
+  padding: 40px 0px;
+}
+
+#Places h2,ul {
+  text-align: center;
+}
+
+#Places ul li{
+  display: inline;
+  margin:0 32px;
+}
+
+#Places fieldset {
+  text-align: center;
+  width: 1200px;
+  height: 650px;
+  border: none;
+}
+
+#Places fieldset img {
+  margin: 4px 8px;
+}
+
+#Places fieldset img:active {
+  transform: scale(1.5);
+}
+
+/* -----------------------------------------------------------------------------------------------*\
+                                        # SECTION: Create_An_Account
+\*----------------------------------------------------------------------------------------------- */
+
+#Create_An_Account {
+  text-align: center;
+  background: url("../assets/img/background/mountain.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 50px;
+}
+
+#Create_An_Account p {
+  font-size: 36px;
+  color: aliceblue;
+}
+
+#Create_An_Account form {
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 300px;
+  height: 350px;
+  padding: 10px 30px;
+  background-color: #4b4b4b;
+  border-radius: 3px;
+}
+
+#Create_An_Account h3,a {
+  font-weight: 500;
+  margin: 20px 0px;
+  color: #ebcb80;
+}
+
+#Create_An_Account input {
+  padding: 5px 10px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+#Create_An_Account .submit {
+  padding: 10px 40px;
+  border: none;
+  border-radius: 30px;
+  background-color: #ebcb80;
+  color: #4b4b4b;
+}
+
+#Create_An_Account .submit:hover {
+  transform: scale(1.2);
+  background-color: aquamarine;
+}
+
+#Create_An_Account .submit:active {
+  background-color: transparent;
+  border: 1px solid whitesmoke;
+  color: aliceblue;
+}
+
+
+
+
