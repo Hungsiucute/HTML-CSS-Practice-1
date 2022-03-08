@@ -471,6 +471,102 @@ color: #ebcb80;
   color: aliceblue;
 }
 
+/* -----------------------------------------------------------------------------------------------*\
+                                        # SECTION: Contact
+\*----------------------------------------------------------------------------------------------- */
 
+#Contact {
+  font-size: 14px;
+  background-color: whitesmoke;
+  color: #4b4b4b;
+  padding: 30px;
+  text-align: center;
+}
 
+#Contact h2 {
+  font-size: 27px;
+}
 
+#Contact p,ul {
+  text-align: left;
+}
+
+#Contact .contain {
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+}
+
+.header_contact p {
+  font-size: 20px;
+} 
+
+.header_contact ul {
+  margin-left: 20px;
+}
+.header_contact ul li {
+  padding-left: 20px;
+}
+
+.header_contact .location {
+  list-style-image: url("../assets/img/icons/location.png");
+}
+
+.header_contact .mail {
+  list-style-image: url("../assets/img/icons/mail.png");
+}
+
+.header_contact .phone {
+  list-style-image: url("../assets/img/icons/phone.png");
+  list-style-position: outside;
+}
+
+.main_contact {
+  margin: 0px 40px;
+}
+
+.main_contact form {
+  width: 550px;
+  height: 500px;
+  padding: 50px;
+  border: 1px solid #4b4b4b;
+  border-radius: 3px;
+  box-shadow: 0px 2px 4px 1px gray;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.main_contact form input {
+  padding: 5px 10px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.main_contact form textarea {
+  width: 430px;
+  height: 200px;
+  border: 1px solid #4b4b4b;
+  border-radius: 3px;
+}
+
+.main_contact .submit {
+  margin: 0 auto;
+  padding: 2px 50px;
+  border: none;
+  border-radius: 30px;
+  background-color: #ebcb80;
+}
+
+.main_contact .submit:hover {
+  border: 1px solid #4b4b4b;
+  background-color: transparent;
+}
+
+.footer_contact .tittle {
+  font-size: 20px;
+}
+
+.footer_contact img {
+  margin: 0 10px;
+}
