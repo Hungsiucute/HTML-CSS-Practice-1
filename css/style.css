@@ -30,7 +30,7 @@
   padding: 30px 80px;
   display: flex;
   justify-content: space-between;
-  background-color: #4b4b4b;
+  background-color: #4b4b4bce;
 }
 
 #header .nav .nav_logo p {
@@ -110,10 +110,14 @@
 }
 #header .header_body .icon ul li {
   display: inline-block;
-  margin: 0 5px;
+  margin: 0 6px;
   padding: 10px 10px;
   border-radius: 100%;
   background: #4b4b4b;
+}
+
+#header .header_body .icon ul {
+  text-align: center;
 }
 
 #header .header_body .icon ul li .fa-plane , .fa-wallet , .fa-briefcase {
@@ -388,12 +392,16 @@ color: #ebcb80;
   padding: 40px 0px;
 }
 
-#Places h2,ul {
+#Places h2 {
+  text-align: center;
+}
+
+#Places ul {
   text-align: center;
 }
 
 #Places ul li{
-  display: inline;
+  display: inline-block;
   margin:0 32px;
 }
 
@@ -426,6 +434,7 @@ color: #ebcb80;
 }
 
 #Create_An_Account p {
+  text-align: center;
   font-size: 36px;
   color: aliceblue;
 }
@@ -440,7 +449,7 @@ color: #ebcb80;
   border-radius: 3px;
 }
 
-#Create_An_Account h3,a {
+#Create_An_Account h3,#Create_An_Account a {
   font-weight: 500;
   margin: 20px 0px;
   color: #ebcb80;
@@ -569,4 +578,57 @@ color: #ebcb80;
 
 .footer_contact img {
   margin: 0 10px;
+}
+
+/* -----------------------------------------------------------------------------------------------*\
+                                        #FOOTER
+\*----------------------------------------------------------------------------------------------- */
+#footer {
+  background-color: #4b4b4b;
+  color: #d1d1d1;
+  padding: 40px 80px 20px 80px;
+}
+
+#footer .footer_introduction {
+  display: flex;
+  justify-content: space-between;
+}
+
+#footer .footer_introduction p {
+  text-align: left;
+  color: white;
+  font-size: 18px;
+}
+
+#footer .footer_introduction img {
+  width: 14%;
+  height: 17%;
+  margin-right: 20px;
+}
+
+#footer .footer_introduction div {
+  font-size: 14px;
+}
+
+#footer .footer_link {
+  display: flex;
+  justify-content: space-between;
+}
+
+#footer .footer_link ul {
+  display: flex;
+  list-style: none;
+}
+
+#footer .footer_link ul li {
+  margin: 0 10px;
+  font-size: 16px;
+}
+#footer .footer_link ul a {
+  text-decoration: none;
+  color: white;
+}
+
+#footer .footer_link ul li:hover {
+  border-bottom: 2px solid white;
 }
