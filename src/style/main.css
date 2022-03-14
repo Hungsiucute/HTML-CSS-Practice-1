@@ -4,14 +4,15 @@
     padding: 0;
     font-family: 'Roboto', sans-serif;
     line-height: 1.4;
+    max-width: 1440px;
 }
 
 /* -----------------------------------------------------------------------------------------------*\
                                         # HEADER
 \*----------------------------------------------------------------------------------------------- */
 
-#header {
-  background: url('../assets/img/background/thanhpho.png');
+.header {
+  background: url('../assets/images/home/city.png');
   background-color: #ebcb80;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -33,82 +34,89 @@
   background-color: #4b4b4bce;
 }
 
-#header .nav .nav_logo p {
-  font-weight: bold;
-  font-size: 30px;
+#header .nav .nav-logo p {
+  font-weight: 400;
+  font-size: 36px;
   color:#ebcb80;
+  line-height: 42.19px;
+  letter-spacing: 2px;
 }
 
-#header .nav .nav_link {
+#header .nav .nav-link {
   display: flex;
 }
-#header .nav .nav_link li {
+#header .nav .nav-link li {
+  line-height: 20.09px;
+  font-size: 18px;
   margin-top: 10px;
   list-style: none;
-  margin-right: 20px;
+  margin-right: 44px;
 }
 
-#header .nav .nav_link li:hover{
+#header .nav .nav-link li:hover{
   border-bottom: 2px solid white;
 }
 
-#header .nav .nav_link a {
+#header .nav .nav-link a {
   text-decoration: none;
   color:white;
 }
 
-#header .nav .nav_link .Take_a_tour {
+#header .nav .nav-link .Take-a-tour {
+  font-size: 16px;
+  line-height: 18.75px;
   padding: 10px 30px;
   border: 1px solid white;
   background-color: #4b4b4b;
   border-radius: 30px;
 }
 
-#header .nav .nav_link .Take_a_tour:hover {
+#header .nav .nav-link .Take-a-tour:hover {
   border: 2px solid white;
 }
 
 /*======================================= header body ============================================*/
 
-#header .header_body {
+#header .header-body {
   color:#4b4b4b;
   margin-top: 150px;
   text-align: center;
 }
 
-#header .header_body .header_title {
-  font-size: 14px;
+#header .header-body .header-title {
+  font-size: 16px;
+  line-height: 24px;
   margin-bottom: 32px;
 }
 
-#header .header_body .header_title p {
-  font-weight: bold;
-  font-size: 34px;
+#header .header-body .header-title p {
+  font-size: 44px;
+  line-height: 48px;
 }
 
-#header .header_body .header_button {
+#header .header-body .header-button {
   margin-bottom: 50px;
 }
 
-#header .header_body .header_button .text {
+#header .header-body .header-button .text {
   padding: 5px 10px;
   border: 1px solid black;
   border-radius: 3px;
   background-color: transparent;
   margin-right: 20px;
 }
-#header .header_body .header_button .submit {
+#header .header-body .header-button .submit {
   padding: 5px 40px;
   border: 1.5px solid black;
   border-radius: 30px;
   background-color: transparent;
 }
 
-#header .header_body .header_button .submit:hover {
+#header .header-body .header-button .submit:hover {
   background-color: #4b4b4b;
   color: aliceblue;
 }
-#header .header_body .icon ul li {
+#header .header-body .icon ul li {
   display: inline-block;
   margin: 0 6px;
   padding: 10px 10px;
@@ -116,97 +124,100 @@
   background: #4b4b4b;
 }
 
-#header .header_body .icon ul {
+#header .header-body .icon ul {
   text-align: center;
 }
 
-#header .header_body .icon ul li .fa-plane , .fa-wallet , .fa-briefcase {
+#header .header-body .icon ul li .fa-plane , .fa-wallet , .fa-briefcase {
   background-color: #4b4b4b;
   color:white;
 }
-#header .header_body .icon ul li:hover {
+#header .header-body .icon ul li:hover {
   transform: scale(1.2);
 }
 /* -----------------------------------------------------------------------------------------------*\
-                                        # SECTION: Our_team
+                                        # SECTION: Our-team
 \*----------------------------------------------------------------------------------------------- */
 
-#Our_team .container {
+.container {
   color: #4b4b4b;
   margin: 0 auto;
   overflow: hidden;
-  padding: 0 30px;
+  padding: 56px 30px;
 }
 
-#Our_team .container h1 {
+#Our-team .container .tittle {
+  font-size: 44px;
+  line-height: 48px;
   text-align: center;
 }
 
 
-#Our_team .images_1 {
+#Our-team .images-1 {
   display: flex;
   justify-content: space-around;
   padding:  30px;
 }
 
-#Our_team .images_1 .image {
+#Our-team .images-1 .image {
   display: flex;
   text-align:left;
   padding: 10px;
 }
 
-#Our_team .images_1 .image img {
+#Our-team .images-1 .image img {
   width: 80px;
   height: 80px;
   margin-bottom: 10px;
   margin-right: 10px;
 }
 
-#Our_team .images_1 .image img:active {
+#Our-team .images-1 .image img:active {
   transform: scale(3.0);
 }
 
-#Our_team .images_2 {
+#Our-team .images-2 {
   display: flex;
   justify-content: space-around;
   padding:  30px;
 }
 
-#Our_team .images_2 .image {
+#Our-team .images-2 .image {
   display: flex;
   text-align:left;
   padding: 10px;
 }
 
-#Our_team .images_2 .image img {
+#Our-team .images-2 .image img {
   width: 80px;
   height: 80px;
   margin-bottom: 10px;
   margin-right: 10px;
 }
 
-#Our_team .images_2 .image img:active {
+#Our-team .images-2 .image img:active {
   transform: scale(3.0);
 }
 /* -----------------------------------------------------------------------------------------------*\
-                                        # SECTION: Choose_Your_Plan
+                                        # SECTION: Choose-Your-Plan
 \*----------------------------------------------------------------------------------------------- */
-#Choose_Your_Plan {
+.Choose-Your-Plan {
   padding-top: 30px;
   background: #4b4b4b;
   color: aliceblue;
 }
 
-#Choose_Your_Plan h2 {
+#Choose-Your-Plan h2 {
   text-align: center;
 }
 
-#Choose_Your_Plan .container {
-  margin: 0 80px;
+#Choose-Your-Plan .container {
+  color: #d1d1d1;
+  justify-content: center;
   display: flex;
 }
 
-#Choose_Your_Plan fieldset {
+#Choose-Your-Plan fieldset {
   border: none;
   border-radius: 10px;
   padding: 20px 20px;
@@ -215,7 +226,7 @@
   text-align: center;
 }
 
-#Choose_Your_Plan fieldset:active {
+#Choose-Your-Plan fieldset:active {
   transform: scale(1.2);
 } 
 
@@ -231,44 +242,44 @@
   font-weight: bold;
 }
 
-#Choose_Your_Plan .container button {
+#Choose-Your-Plan .container button {
   padding: 5px 40px;
   border: none;
   border-radius: 30px;
 }
 
-#Choose_Your_Plan .container button:hover {
+#Choose-Your-Plan .container button:hover {
   background-color: aqua;
   color: #4b4b4b;
 }
 
-.purchase_silver {
+.purchase-silver {
   background: #4b4b4b;
   background-color: rgb(255, 255, 255,0.12);
   box-shadow: -1px 2px 10px 0px black;
 }
 
-.purchase_gold {
+.purchase-gold {
   color: #4b4b4b;
   background-color:#ebcb80;
   box-shadow: -1px 2px 10px 0px black;
 }
 
-.purchase_platinum {
+.purchase-platinum {
   background: black;
   background-color: rgb(255, 255, 255,0.0005);
   box-shadow: -1px 2px 10px 0px black;
 }
 
-.purchase_silver h3, .purchase_platinum h3 {
+.purchase-silver h3, .purchase-platinum h3 {
   color:#ebcb80;
 }
 
-.purchase_silver button, .purchase_platinum button {
+.purchase-silver button, .purchase-platinum button {
   background-color: #ebcb80;
 }
 
-.purchase_gold button {
+.purchase-gold button {
   background-color:#4b4b4b;
   color: aliceblue;
 }
@@ -281,7 +292,7 @@
   justify-content: space-around;
 }
 
-.information_main {
+.information-main {
   width: 300px;
   text-align: center;
 }
@@ -292,12 +303,12 @@
   margin-left: 40px;
 }
 
-.information_main ul {
+.information-main ul {
   list-style: circle;
   display: flex;
 }
 
-.information_main ul li {
+.information-main ul li {
   margin: 0 20px;
   font-size: 200%;
 }
@@ -333,13 +344,17 @@
 /* -----------------------------------------------------------------------------------------------*\
                                         # SECTION: Advantages
 \*----------------------------------------------------------------------------------------------- */
-#Advantages {
+.Advantages {
   padding: 30px 30px;
   background: #4b4b4b;
   color: aliceblue;
 }
 
-#Advantages h2,p {
+#Advantages h2 {
+  text-align: center;
+}
+
+#Advantages p {
   text-align: center;
 }
 
@@ -348,8 +363,9 @@ color: #ebcb80;
 }
 
 #Advantages .container {
-  margin: 0 80px;
-  display: flex;
+  display: flex;  
+  justify-content: center;
+  color: #d1d1d1;
 }
 
 #Advantages fieldset {
@@ -377,7 +393,7 @@ color: #ebcb80;
   color: #4b4b4b;
 }
 
-.find_more {
+.find-more {
   background: black;
   background-color: rgb(255, 255, 255,0.0005);
   box-shadow: -1px 2px 10px 0px black;
@@ -387,7 +403,7 @@ color: #ebcb80;
                                         # SECTION: Places
 \*----------------------------------------------------------------------------------------------- */
 
-#Places {
+.Places {
   color: #4b4b4b;
   padding: 40px 0px;
 }
@@ -406,9 +422,9 @@ color: #ebcb80;
 }
 
 #Places fieldset {
-  text-align: center;
-  width: 1200px;
-  height: 650px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
   border: none;
 }
 
@@ -421,25 +437,25 @@ color: #ebcb80;
 }
 
 /* -----------------------------------------------------------------------------------------------*\
-                                        # SECTION: Create_An_Account
+                                        # SECTION: Create-An-Account
 \*----------------------------------------------------------------------------------------------- */
 
-#Create_An_Account {
+.Create-An-Account {
   text-align: center;
-  background: url("../assets/img/background/mountain.png");
+  background: url("../assets/images/home/mountain.png");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 50px 50px;
 }
 
-#Create_An_Account p {
+#Create-An-Account p {
   text-align: center;
   font-size: 36px;
   color: aliceblue;
 }
 
-#Create_An_Account form {
+#Create-An-Account form {
   margin: 0 auto;
   margin-top: 30px;
   width: 300px;
@@ -449,19 +465,19 @@ color: #ebcb80;
   border-radius: 3px;
 }
 
-#Create_An_Account h3,#Create_An_Account a {
+#Create-An-Account h3,#Create-An-Account a {
   font-weight: 500;
   margin: 20px 0px;
   color: #ebcb80;
 }
 
-#Create_An_Account input {
+#Create-An-Account input {
   padding: 5px 10px;
   border: 1px solid black;
   border-radius: 3px;
 }
 
-#Create_An_Account .submit {
+#Create-An-Account .submit {
   padding: 10px 40px;
   border: none;
   border-radius: 30px;
@@ -469,12 +485,12 @@ color: #ebcb80;
   color: #4b4b4b;
 }
 
-#Create_An_Account .submit:hover {
+#Create-An-Account .submit:hover {
   transform: scale(1.2);
   background-color: aquamarine;
 }
 
-#Create_An_Account .submit:active {
+#Create-An-Account .submit:active {
   background-color: transparent;
   border: 1px solid whitesmoke;
   color: aliceblue;
@@ -484,7 +500,7 @@ color: #ebcb80;
                                         # SECTION: Contact
 \*----------------------------------------------------------------------------------------------- */
 
-#Contact {
+.Contact{
   font-size: 14px;
   background-color: whitesmoke;
   color: #4b4b4b;
@@ -506,35 +522,35 @@ color: #ebcb80;
   text-align: left;
 }
 
-.header_contact p {
+.header-contact p {
   font-size: 20px;
 } 
 
-.header_contact ul {
+.header-contact ul {
   margin-left: 20px;
 }
-.header_contact ul li {
+.header-contact ul li {
   padding-left: 20px;
 }
 
-.header_contact .location {
+.header-contact .location {
   list-style-image: url("../assets/img/icons/location.png");
 }
 
-.header_contact .mail {
+.header-contact .mail {
   list-style-image: url("../assets/img/icons/mail.png");
 }
 
-.header_contact .phone {
+.header-contact .phone {
   list-style-image: url("../assets/img/icons/phone.png");
   list-style-position: outside;
 }
 
-.main_contact {
+.main-contact {
   margin: 0px 40px;
 }
 
-.main_contact form {
+.main-contact form {
   width: 550px;
   height: 500px;
   padding: 50px;
@@ -546,20 +562,20 @@ color: #ebcb80;
   justify-content: space-between;
 }
 
-.main_contact form input {
+.main-contact form input {
   padding: 5px 10px;
   border: 1px solid black;
   border-radius: 3px;
 }
 
-.main_contact form textarea {
+.main-contact form textarea {
   width: 430px;
   height: 200px;
   border: 1px solid #4b4b4b;
   border-radius: 3px;
 }
 
-.main_contact .submit {
+.main-contact .submit {
   margin: 0 auto;
   padding: 2px 50px;
   border: none;
@@ -567,68 +583,68 @@ color: #ebcb80;
   background-color: #ebcb80;
 }
 
-.main_contact .submit:hover {
+.main-contact .submit:hover {
   border: 1px solid #4b4b4b;
   background-color: transparent;
 }
 
-.footer_contact .tittle {
+.footer-contact .tittle {
   font-size: 20px;
 }
 
-.footer_contact img {
+.footer-contact img {
   margin: 0 10px;
 }
 
 /* -----------------------------------------------------------------------------------------------*\
                                         #FOOTER
 \*----------------------------------------------------------------------------------------------- */
-#footer {
+.footer {
   background-color: #4b4b4b;
   color: #d1d1d1;
   padding: 40px 80px 20px 80px;
 }
 
-#footer .footer_introduction {
+#footer .footer-introduction {
   display: flex;
   justify-content: space-between;
 }
 
-#footer .footer_introduction p {
+#footer .footer-introduction p {
   text-align: left;
   color: white;
   font-size: 18px;
 }
 
-#footer .footer_introduction img {
+#footer .footer-introduction img {
   width: 14%;
   height: 17%;
   margin-right: 20px;
 }
 
-#footer .footer_introduction div {
+#footer .footer-introduction div {
   font-size: 14px;
 }
 
-#footer .footer_link {
+#footer .footer-link {
   display: flex;
   justify-content: space-between;
 }
 
-#footer .footer_link ul {
+#footer .footer-link ul {
   display: flex;
   list-style: none;
 }
 
-#footer .footer_link ul li {
+#footer .footer-link ul li {
   margin: 0 10px;
   font-size: 16px;
 }
-#footer .footer_link ul a {
+#footer .footer-link ul a {
   text-decoration: none;
   color: white;
 }
 
-#footer .footer_link ul li:hover {
+#footer .footer-link ul li:hover {
   border-bottom: 2px solid white;
 }
