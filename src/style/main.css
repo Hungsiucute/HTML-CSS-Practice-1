@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 * { box-sizing: border-box;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     font-family: 'Roboto', sans-serif;
     line-height: 1.4;
@@ -95,18 +95,23 @@
 }
 
 #header .header-body .header-button {
-  margin-bottom: 50px;
+  margin-bottom: 58px;
 }
 
 #header .header-body .header-button .text {
-  padding: 5px 10px;
+  width: 270px; 
+  height: 48px;
+  padding: 11px 18px;
   border: 1px solid black;
   border-radius: 3px;
   background-color: transparent;
-  margin-right: 20px;
+  margin-right: 18px;
 }
 #header .header-body .header-button .submit {
-  padding: 5px 40px;
+  width: 198px;
+  height: 48px;
+  text-transform: uppercase;
+  padding: 15px 40px;
   border: 1.5px solid black;
   border-radius: 30px;
   background-color: transparent;
@@ -116,23 +121,23 @@
   background-color: #4b4b4b;
   color: aliceblue;
 }
-#header .header-body .icon ul li {
+#header .header-body .icons ul li {
   display: inline-block;
-  margin: 0 6px;
-  padding: 10px 10px;
+  margin: 0 30px;
   border-radius: 100%;
   background: #4b4b4b;
 }
 
-#header .header-body .icon ul {
+#header .header-body .icons ul li img {
+  width: 80px;
+  height: 80px;
+}
+
+#header .header-body .icons ul {
   text-align: center;
 }
 
-#header .header-body .icon ul li .fa-plane , .fa-wallet , .fa-briefcase {
-  background-color: #4b4b4b;
-  color:white;
-}
-#header .header-body .icon ul li:hover {
+#header .header-body .icons ul li:hover {
   transform: scale(1.2);
 }
 /* -----------------------------------------------------------------------------------------------*\
@@ -208,10 +213,14 @@
 }
 
 #Choose-Your-Plan h2 {
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 48px;
   text-align: center;
 }
 
 #Choose-Your-Plan .container {
+  padding-top: 56px;
   color: #d1d1d1;
   justify-content: center;
   display: flex;
@@ -220,9 +229,10 @@
 #Choose-Your-Plan fieldset {
   border: none;
   border-radius: 10px;
-  padding: 20px 20px;
-  margin:50px 30px;
-  width: 280px;
+  padding: 40px 0px;
+  margin: 0px 30px;
+  width: 360px;
+  height: 396px;
   text-align: center;
 }
 
@@ -230,20 +240,25 @@
   transform: scale(1.2);
 } 
 
-.money { 
+.money {  
   display: flex;
   justify-content: center;
-  margin: 10px 0px;
+  margin: 30px 0px 15px 0px ;
+}
+
+.money p { 
+  font-size: 24px;
+  margin: 0px;
 }
 
 .money .number {
-  margin-top: -10px;
-  font-size: 48px;
+  font-size: 64px;
+  line-height: 48px;
   font-weight: bold;
 }
 
 #Choose-Your-Plan .container button {
-  padding: 5px 40px;
+  padding: 15px 57px;
   border: none;
   border-radius: 30px;
 }
@@ -275,6 +290,10 @@
   color:#ebcb80;
 }
 
+.Choose-Your-Plan h3{
+  font-size: 18px;
+}
+
 .purchase-silver button, .purchase-platinum button {
   background-color: #ebcb80;
 }
@@ -285,15 +304,16 @@
 }
 
 .information {
-  padding: 30px 30px;
+  margin: 0 auto;
+  padding: 100px 250px;
   background-color: aliceblue;
   color: #4b4b4b;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .information-main {
-  width: 300px;
+  width: 550px;
   text-align: center;
 }
 
@@ -304,12 +324,15 @@
 }
 
 .information-main ul {
+  margin: 0px;
+  margin-top: 53px;
   list-style: circle;
   display: flex;
+  list-style-position: outside;
 }
 
 .information-main ul li {
-  margin: 0 20px;
+  margin: 0 16px;
   font-size: 200%;
 }
 
@@ -345,13 +368,16 @@
                                         # SECTION: Advantages
 \*----------------------------------------------------------------------------------------------- */
 .Advantages {
-  padding: 30px 30px;
+  padding: 68px 0px;
   background: #4b4b4b;
   color: aliceblue;
 }
 
 #Advantages h2 {
   text-align: center;
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 48px;
 }
 
 #Advantages p {
@@ -359,7 +385,8 @@
 }
 
 #Advantages h3 {
-color: #ebcb80;
+  font-size: 18px;
+  color: #ebcb80;
 }
 
 #Advantages .container {
@@ -371,9 +398,10 @@ color: #ebcb80;
 #Advantages fieldset {
   border: none;
   border-radius: 10px;
-  padding: 20px 20px;
-  margin:50px 30px;
-  width: 280px;
+  padding: 40px 0px;
+  margin:0px 30px;
+  width: 360px;
+  height: 396px;
   text-align: center;
 }
 
@@ -382,8 +410,9 @@ color: #ebcb80;
 } 
 
 #Advantages .container button {
+  margin-top: 26px;
   background-color: #ebcb80;
-  padding: 5px 40px;
+  padding: 15px 57px;
   border: none;
   border-radius: 30px;
 }
