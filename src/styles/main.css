@@ -570,6 +570,11 @@
   font-size: 18px;
 } 
 
+.header-contact a {
+  text-decoration: none;
+  color: #4b4b4b;
+}
+
 .header-contact ul {
   margin-left: 20px;
 }
