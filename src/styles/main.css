@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
 * { box-sizing: border-box;
     margin: 0 auto;
     padding: 0;
@@ -27,14 +27,16 @@
   top: 0px;
   position: fixed;
   width: 100%;
+  height: 156px;
   color: #f0f8ff;
-  padding: 30px 80px;
+  padding: 55px 0px;
   display: flex;
   justify-content: space-between;
   background-color: #4b4b4bce;
 }
 
 #header .nav .nav-logo p {
+  margin-left: -36px;
   font-weight: 400;
   font-size: 36px;
   color:#ebcb80;
@@ -51,6 +53,7 @@
   margin-top: 10px;
   list-style: none;
   margin-right: 44px;
+  letter-spacing: 1px;
 }
 
 #header .nav .nav-link li:hover{
@@ -258,6 +261,7 @@
 }
 
 #Choose-Your-Plan .container button {
+  text-transform: uppercase;
   padding: 15px 57px;
   border: none;
   border-radius: 30px;
@@ -673,10 +677,6 @@
   margin-right: 20px;
 }
 
-#footer .footer-introduction div {
-  font-size: 14px;
-}
-
 #footer .footer-link {
   display: flex;
   justify-content: space-between;
@@ -689,8 +689,9 @@
 
 #footer .footer-link ul li {
   margin: 0 10px;
-  font-size: 16px;
+  font-size: 18px;
 }
+
 #footer .footer-link ul a {
   text-decoration: none;
   color: #ffffff;
@@ -701,7 +702,7 @@
 }
 
 #footer .line {
-  margin: 0 50px;
+  margin: 42px 50px 29px 50px;
   background: white;
   height: 1px;
 }
