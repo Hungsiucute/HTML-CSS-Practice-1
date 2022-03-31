@@ -31,7 +31,7 @@
   color: #f0f8ff;
   padding: 55px 0px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   background-color: #4b4b4bce;
 }
 
@@ -46,6 +46,7 @@
 
 #header .nav .nav-link {
   display: flex;
+  padding-left: 145px;
 }
 #header .nav .nav-link li {
   line-height: 20.09px;
@@ -82,8 +83,9 @@
 
 #header .header-body {
   color:#4b4b4b;
-  margin-top: 150px;
+  margin-top: 313px;
   text-align: center;
+  padding-bottom: 90px;
 }
 
 #header .header-body .header-title {
