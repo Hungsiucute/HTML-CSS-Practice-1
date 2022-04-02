@@ -96,12 +96,16 @@
 #header .header-body .header-title {
   font-size: 16px;
   line-height: 24px;
-  margin-bottom: 32px;
+  margin-bottom: 35px;
 }
 
 #header .header-body .header-title p {
   font-size: 44px;
   line-height: 48px;
+  padding-right: 37px;
+  margin-bottom: 20px;
+  letter-spacing: -1px;
+  word-spacing: -4px;
 }
 
 #header .header-body .header-button {
@@ -162,22 +166,36 @@
 }
 
 #Our-team .container .tittle {
+  padding-left: 5px;
+  word-spacing: -4px;
+  letter-spacing: -1px;
   font-size: 44px;
   line-height: 48px;
   text-align: center;
 }
+#Our-team .name{
+  font-size: 18px;
+  font-weight: 400;
+}
+#Our-team .career{
+  padding-bottom: 18px;
+  font-weight: 400;
+}
 
+#Our-team .name-career{
+  margin: 4px 10px 10px 4px;
+}
 
 #Our-team .images-1 {
   display: flex;
   justify-content: space-around;
-  padding:  30px;
+  padding:  30px 121px 45px 100px;
 }
 
 #Our-team .images-1 .image {
   display: flex;
   text-align:left;
-  padding: 10px;
+  margin-top: 25px;
 }
 
 #Our-team .images-1 .image img {
@@ -194,13 +212,12 @@
 #Our-team .images-2 {
   display: flex;
   justify-content: space-around;
-  padding:  30px;
+  padding:  25px 110px 35px 90px;
 }
 
 #Our-team .images-2 .image {
   display: flex;
   text-align:left;
-  padding: 10px;
 }
 
 #Our-team .images-2 .image img {
@@ -208,6 +225,10 @@
   height: 80px;
   margin-bottom: 10px;
   margin-right: 10px;
+}
+
+#Our-team .images-2 .image .mistake-img{
+  margin-left: 50px;
 }
 
 #Our-team .images-2 .image img:active {
