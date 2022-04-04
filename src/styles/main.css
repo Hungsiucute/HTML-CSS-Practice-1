@@ -88,9 +88,10 @@
 
 #header .header-body {
   color:#4b4b4b;
-  margin-top: 313px;
+  margin-top: 311px;
   text-align: center;
   padding-bottom: 90px;
+  padding-left: 1px;
 }
 
 #header .header-body .header-title {
@@ -102,10 +103,9 @@
 #header .header-body .header-title p {
   font-size: 44px;
   line-height: 48px;
-  padding-right: 37px;
-  margin-bottom: 20px;
-  letter-spacing: -1px;
-  word-spacing: -4px;
+  padding-right: 33px;
+  margin-bottom: 22px;
+  letter-spacing: -0.0363636em;
 }
 
 #header .header-body .header-button {
@@ -122,10 +122,11 @@
   margin-right: 18px;
 }
 #header .header-body .header-button .submit {
+  letter-spacing: 1px;
   width: 198px;
-  height: 48px;
+  height: 50px;
   text-transform: uppercase;
-  padding: 15px 40px;
+  padding: 15px 40px 15px 36px;
   border: 1.5px solid #000000;
   border-radius: 30px;
   background-color: transparent;
@@ -137,9 +138,7 @@
 }
 #header .header-body .icons ul li {
   display: inline-block;
-  margin: 0 30px;
-  border-radius: 100%;
-  background: #4b4b4b;
+  margin: 1px 28px;
 }
 
 #header .header-body .icons ul li img {
@@ -162,13 +161,12 @@
   color: #4b4b4b;
   margin: 0 auto;
   overflow: hidden;
-  padding: 56px 30px;
+  padding: 55px 28px;
 }
 
 #Our-team .container .tittle {
   padding-left: 5px;
-  word-spacing: -4px;
-  letter-spacing: -1px;
+  letter-spacing: -0.0363636em;
   font-size: 44px;
   line-height: 48px;
   text-align: center;
@@ -189,7 +187,7 @@
 #Our-team .images-1 {
   display: flex;
   justify-content: space-around;
-  padding:  30px 121px 45px 100px;
+  padding:  28px 121px 45px 100px;
 }
 
 #Our-team .images-1 .image {
@@ -212,7 +210,7 @@
 #Our-team .images-2 {
   display: flex;
   justify-content: space-around;
-  padding:  25px 110px 35px 90px;
+  padding:  24px 115px 37px 90px;
 }
 
 #Our-team .images-2 .image {
@@ -238,12 +236,13 @@
                                         # SECTION: Choose-Your-Plan
 \*----------------------------------------------------------------------------------------------- */
 .Choose-Your-Plan {
-  padding-top: 30px;
+  padding-top: 70px;
   background: #4b4b4b;
   color: #f0f8ff;
 }
 
 #Choose-Your-Plan h2 {
+  letter-spacing: -0.0363636em;
   font-weight: 400;
   font-size: 44px;
   line-height: 48px;
@@ -251,47 +250,55 @@
 }
 
 #Choose-Your-Plan .container {
-  padding-top: 56px;
+  padding-top: 50px;
+  padding-bottom: 115px;
   color: #d1d1d1;
   justify-content: center;
   display: flex;
 }
 
-#Choose-Your-Plan fieldset {
+#Choose-Your-Plan .card-purchase {
   border: none;
   border-radius: 10px;
-  padding: 40px 0px;
-  margin: 0px 30px;
+  padding: 45px 0px;
+  margin: 0px 15px;
   width: 360px;
   height: 396px;
   text-align: center;
 }
 
-#Choose-Your-Plan fieldset:active {
+#Choose-Your-Plan .card-purchase:active {
   transform: scale(1.2);
 } 
 
 .money {  
   display: flex;
   justify-content: center;
-  margin: 30px 0px 15px 0px ;
+  margin: 27px 8px 15px 0px ;
+  letter-spacing: -0.0363636em;
+}
+
+.year {
+  font-size: 18px;
+  padding-bottom: 28px;
 }
 
 .money p { 
   font-size: 24px;
-  margin: 0px;
+  margin: 0 8px 0 0;
 }
 
 .money .number {
   font-size: 64px;
   line-height: 48px;
-  font-weight: bold;
 }
 
 #Choose-Your-Plan .container button {
   text-transform: uppercase;
-  padding: 15px 57px;
+  padding: 15px 52px 15px 57px;
+  letter-spacing: 1px;
   border: none;
+  margin-top: 33px;
   border-radius: 30px;
 }
 
@@ -324,6 +331,7 @@
 
 .Choose-Your-Plan h3{
   font-size: 18px;
+  letter-spacing: 0.1em;
 }
 
 .purchase-silver button, .purchase-platinum button {
@@ -338,7 +346,7 @@
 .information {
   margin: 0 auto;
   padding: 100px 250px;
-  background-color: #f0f8ff;
+  background-color: white;
   color: #4b4b4b;
   display: flex;
   justify-content: space-between;
@@ -372,11 +380,10 @@
   list-style: disc;
 }
 
-.return, .next {
-  width: 50px;
-  height: 50px;
-  border: 1px solid #4b4b4b;
-  background-color: #f0f8ff;
+.prev, .next {
+  border: none;
+  width: 65px;
+  height: 65px;
   border-radius: 100%;
   display: flex;
   justify-content: center;
