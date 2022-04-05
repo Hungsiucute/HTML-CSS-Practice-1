@@ -345,7 +345,7 @@
 
 .information {
   margin: 0 auto;
-  padding: 100px 250px;
+  padding: 100px 250px 60px 250px;
   background-color: white;
   color: #4b4b4b;
   display: flex;
@@ -357,22 +357,29 @@
   text-align: center;
 }
 
+.information-name {
+  font-size: 18px;
+  padding-top: 23px;
+  padding-bottom: 26px;
+}
+
 .list {
+  font-size: 130%;
   display: flex;
   justify-content: center;
-  margin-left: 40px;
+  margin-left: 53px;
 }
 
 .information-main ul {
   margin: 0px;
-  margin-top: 53px;
+  margin-top: 25px;
   list-style: circle;
   display: flex;
   list-style-position: outside;
 }
 
 .information-main ul li {
-  margin: 0 16px;
+  margin: 5px 16px;
   font-size: 200%;
 }
 
@@ -407,12 +414,13 @@
                                         # SECTION: Advantages
 \*----------------------------------------------------------------------------------------------- */
 .Advantages {
-  padding: 68px 0px;
+  padding: 43px 0px;
   background: #4b4b4b;
   color: #f0f8ff;
 }
 
 #Advantages h2 {
+  letter-spacing: -0.0363636em;
   text-align: center;
   font-size: 44px;
   font-weight: 400;
@@ -420,6 +428,7 @@
 }
 
 #Advantages p {
+  padding-top: 2px;
   text-align: center;
 }
 
@@ -429,6 +438,7 @@
 }
 
 #Advantages .container {
+  padding-top: 33px;
   display: flex;  
   justify-content: center;
   color: #d1d1d1;
@@ -438,7 +448,7 @@
   border: none;
   border-radius: 10px;
   padding: 40px 0px;
-  margin:0px 30px;
+  margin:0px 15px;
   width: 360px;
   height: 396px;
   text-align: center;
