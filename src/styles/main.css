@@ -428,13 +428,34 @@
 }
 
 #Advantages p {
-  padding-top: 2px;
+  padding-top: 25px;
   text-align: center;
 }
 
+#Advantages .text {
+  padding-top: 0px;
+  text-align: center;
+  line-height: 24px;
+}
+
+#Advantages .tittle {
+  line-height: 24px;
+  letter-spacing: 0.0625em;
+  padding-top: 25px;
+  text-align: center;
+}
+
+#Advantages img {
+  width: 66px;
+  height: 66px;
+}
+
 #Advantages h3 {
+  letter-spacing: 2px;
   font-size: 18px;
   color: #ebcb80;
+  line-height: 27px;
+  padding-bottom: 22px;
 }
 
 #Advantages .container {
@@ -444,7 +465,7 @@
   color: #d1d1d1;
 }
 
-#Advantages fieldset {
+#Advantages .advantages-card {
   border: none;
   border-radius: 10px;
   padding: 40px 0px;
@@ -454,7 +475,7 @@
   text-align: center;
 }
 
-#Advantages fieldset:active {
+#Advantages .advantages-card:active {
   transform: scale(1.2);
 } 
 
