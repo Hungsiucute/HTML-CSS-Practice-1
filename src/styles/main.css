@@ -414,7 +414,7 @@
                                         # SECTION: Advantages
 \*----------------------------------------------------------------------------------------------- */
 .Advantages {
-  padding: 43px 0px;
+  padding: 44px 0px 34px 0px;
   background: #4b4b4b;
   color: #f0f8ff;
 }
@@ -480,11 +480,14 @@
 } 
 
 #Advantages .container button {
-  margin-top: 26px;
+  margin-top: 28px;
+  margin-left: 5px;
   background-color: #ebcb80;
-  padding: 15px 57px;
+  padding: 17px 54px 13px 54px;
   border: none;
   border-radius: 30px;
+  word-spacing: -1px;
+  letter-spacing: 1px;
 }
 
 #Advantages .container button:hover {
@@ -504,7 +507,8 @@
 
 .Places {
   color: #4b4b4b;
-  padding: 40px 0px;
+  padding: 68px 0px;
+  margin-right: 10px;
 }
 
 #Places h2 {
@@ -512,26 +516,36 @@
   font-size: 44px;
   line-height: 48px;
   font-weight: 400;
+  margin-left: 23px;
+  letter-spacing: -0.0363636em;
 }
 
 #Places ul {
   text-align: center;
+  margin-left: 26px;
 }
 
 #Places ul li{
+  font-size: 18px;
   display: inline-block;
-  margin:0 32px;
+  line-height: 27px;
+  margin: 0 21px;
+  letter-spacing: 0.0555555em;
 }
 
-#Places fieldset {
+#Places .images-places {
   display: flex;
   justify-content: center;
   width: 100%;
   border: none;
 }
 
-#Places fieldset img {
-  margin: 4px 8px;
+#Places .images-places .img-above {
+  margin: 24px 6px 0px 18px;
+}
+
+#Places .images-places .img-below {
+  margin: 13px 6px 0px 18px;
 }
 
 #Places fieldset img:active {
