@@ -507,7 +507,7 @@
 
 .Places {
   color: #4b4b4b;
-  padding: 68px 0px;
+  padding: 68px 0px 85px 0px;
   margin-right: 10px;
 }
 
@@ -562,10 +562,11 @@
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 50px 50px;
+  padding: 65px 50px 46px 50px;
 }
 
 #Create-An-Account p {
+  letter-spacing: -0.0363636em;
   font-weight: 400;
   text-align: center;
   font-size: 44px;
@@ -583,22 +584,27 @@
 }
 
 #Create-An-Account h3 {
-  font-weight: 800;
+  letter-spacing: 0.0555555em;
+  font-weight: bold;
   margin-bottom: 29px;
   color: #ebcb80;
   font-size: 18px;
+  line-height: 27px;
+  word-spacing: 6px;
+  padding-right: 5px;
 }
 #Create-An-Account a {
   font-weight: 400;
-  margin: 20px 0px;
+  margin: 18px 0px;
   color: #ebcb80;
 }
 
 #Create-An-Account input {
+  margin-bottom: 2.5px;
   width: 256px;
   height: 36px;
   padding: 5px 10px;
-  border: 1px solid #000000;
+  border: none;
   border-radius: 3px;
 }
 
