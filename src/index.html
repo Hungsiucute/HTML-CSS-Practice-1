@@ -4,28 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Fontawesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
     integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
     crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/main.css">
-    <link rel="shortcut icon" href="favicon.io" type="image/x-icon">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>HTML-CSS-Practice-1</title>
   </head>
   <body>
     <!-- header --> 
-    <header id="header" class="header">
+    <header id="header" class="main-header">
 
       <!-- nav -->     
       <nav class="nav">
         <div class="nav-logo">
-          <p>hofmann</p>
+          <img class="logo" src="./assets/images/icons/logo.png" alt="logo">
         </div>
         <ul class="nav-link">
-          <li><a href="#Our-team">mission</a></li>
-          <li><a href="#Advantages">services</a></li>
-          <li><a href="#Create-An-Account">about</a></li>
-          <button class="Take-a-tour"><a href="#footer">take a tour</a></button>
+          <li class="main-link"><a href="#our-team">mission</a></li>
+          <li class="main-link"><a href="#advantages">services</a></li>
+          <li class="main-link"><a href="#create-an-account">about</a></li>
+          <li class="take-a-tour"><a href="#footer">take a tour</a></li>
         </ul>
       </nav>
 
@@ -55,13 +59,13 @@
     <main id="main">
 
     <!-- Section: Our-team -->
-      <section id="Our-team" class="Our-team">
+      <section id="our-team" class="our-team">
         <div class="container">
-          <p class="tittle">Our Team</p>
+          <p class="title">Our Team</p>
 
           <div class="images-1">
               <div class="image">
-                  <img src="./assets/images/persons/person.png">
+                  <img src="./assets/images/persons/Craig Todd.png" alt="Craig Todd">
                   <div class="name-career">
                       <p class="name">Craig Todd</p>
                       <p class="career">CEO</p>
@@ -72,7 +76,7 @@
               </div>
 
               <div class="image">
-                  <img src="./assets/images/persons/person (1).png">
+                  <img src="./assets/images/persons/Vera Hopkins.png" alt="Vera Hopkins">
                   <div class="name-career">
                       <p class="name">Vera Hopkins</p>
                       <p class="career">UX Lead</p>
@@ -81,7 +85,7 @@
               </div>
 
               <div class="image">
-                  <img src="./assets/images/persons/person (2).png">
+                  <img src="./assets/images/persons/Jennie Graham.png" alt="Jennie Graham">
                   <div class="name-career">
                       <p class="name">Jennie Graham</p>
                       <p class="career">UX/UI Designer</p>
@@ -93,7 +97,7 @@
           <div class="images-2">
 
               <div class="image">
-                  <img src="./assets/images/persons/person (3).png">
+                  <img src="./assets/images/persons/Eunice Wong.png" alt="Eunice Wong">
                   <div class="name-career">
                       <p class="name">Eunice Wong</p>
                       <p class="career">Marketing consultant</p>
@@ -103,7 +107,9 @@
               </div>
 
               <div class="image">
-                  <div class="mistake-img"><img src="./assets/images/persons/person (4).png"></div>
+                  <div class="mistake-img">
+                    <img src="./assets/images/persons/Chase Meyer.png" alt="Chase Meyer">
+                  </div>
                   <div class="name-career">
                       <p class="name">Chase Meyer</p>
                       <p class="career">Front-end Developer</p>
@@ -112,7 +118,7 @@
               </div>
 
               <div class="image">
-                  <img src="./assets/images/persons/person (5).png">
+                  <img src="./assets/images/persons/Johnny Vargas.png" alt="Johnny Vargas">
                   <div class="name-career">
                       <p class="name">Johnny Vargas</p>
                       <p class="career">Back-end Developer</p>
@@ -124,7 +130,7 @@
         </div>       
       </section>
     <!-- Section:Choose-Your-Plan --> 
-      <section id="Choose-Your-Plan" class="Choose-Your-Plan">
+      <section id="choose-your-plan" class="choose-your-plan">
 
         <h2>Choose Your Plan</h2>
         <div class="container"> 
@@ -142,7 +148,7 @@
             <div class="money"><p>$</p><p class="number">99</p></div>
             <P class="year">YEAR</P>
             <p>Personal Account<br>50 GB Discspace<br>500 Uploads per day</p>
-            <button type="button">purchase</button>
+            <button type="Button">purchase</button>
           </div>
 
           <div class="purchase-platinum card-purchase">
@@ -157,7 +163,7 @@
         <div class="information">
           <button class="prev"><img src="./assets/images/cards/Prev.png" alt="prev"></button>
           <div class="information-main">
-            <img src="./assets/images/persons/person (6).png">
+            <img src="./assets/images/persons/Ida Stephens.png" alt="Ida Stephens">
             <div>
                 <p class="information-name">Ida Stephens — Noir Project<p>                 
                 <p>“Conversations can be a tricky business. 
@@ -169,14 +175,16 @@
                   misunderstanding between parties.”
                 </p>
                 <div class="list">
-                  <ul>
+                  <ul class="circle">
                     <li></li>
                     <li></li>
                   </ul>
+
                   <ul class="disc">
                     <li></li>
                   </ul>
-                  <ul>
+
+                  <ul class="circle">
                     <li></li>
                     <li></li>
                   </ul>
@@ -188,7 +196,7 @@
       </section>
 
     <!-- Section:Advantages -->
-      <section id="Advantages" class="Advantages">
+      <section id="advantages" class="advantages">
         <h2>Advantages</h2>
         <p>One more thing! Any time we start something new it is<br>
         exciting and we are very motivated and committed. </p>
@@ -197,7 +205,7 @@
           <div class="find-more advantages-card">
             <h3>SECURE</h3>
             <img src="./assets/images/icons/safe.png" alt="safe">
-            <p class="tittle">YOUR DATA IS PROTECTED</p>
+            <p class="title">YOUR DATA IS PROTECTED</p>
             <p class="text">No matter how far along you are<br>in your sophistication as an<br>
             amateur astronomer…</p>
             <button>FIND MORE</button>
@@ -206,7 +214,7 @@
           <div class="find-more advantages-card">
             <h3>AESTHETIC</h3>
             <img src="./assets/images/icons/aesthetic.png" alt="aesthetic">
-            <p class="tittle">UNIQUE DESIGN</p>
+            <p class="title">UNIQUE DESIGN</p>
             <p class="text">Acres of Diamonds… you've<br>read the famous story, or at<br>
             least had it related to you.</p>
             <button>FIND MORE</button>
@@ -215,7 +223,7 @@
           <div class="find-more advantages-card">
             <h3>NEAT</h3>
             <img src="./assets/images/icons/neat-icon.png" alt="neat-icon">
-            <p class="tittle">ACCURATE IN DETAILS</p>
+            <p class="title">ACCURATE IN DETAILS</p>
             <p class="text">Some days a motivational quote<br>can provide a quick pick-me-up.<br><br></p>
             <button>FIND MORE</button>
           </div>
@@ -224,7 +232,7 @@
       </section>
 
     <!-- Section:Places -->
-      <section id="Places" class="Places">
+      <section id="places" class="places">
 
         <h2>Places</h2><br>
 
@@ -249,20 +257,20 @@
       </section>
 
     <!-- Section:Create-An-Account -->
-      <section id="Create-An-Account" class="Create-An-Account">
+      <section id="create-an-account" class="create-an-account">
         <p>Create An Account</p>
         <form action="#">
           <h3>SIGN UP</h3>
-          <input type="text" placeholder="Email"><br><br>
-          <input type="password" placeholder="Password"><br><br>
-          <input type="password" placeholder="Comfirm Password"><br><br>
+          <input type="Text" placeholder="Email"><br><br>
+          <input type="Password" placeholder="Password"><br><br>
+          <input type="Password" placeholder="Comfirm Password"><br><br>
           <a href="#">Already Have an account?</a><br><br>
           <input class="submit" type="submit" value="SIGN UP">
         </form>
       </section>
 
     <!-- Section:Contact -->
-      <section id="Contact" class="Contact">
+      <section id="contact" class="contact">
         <h2>Contact Us</h2><br><br>
 
         <div class="contain">
@@ -295,13 +303,13 @@
           </div>
 
           <div class="footer-contact">
-            <p class="tittle">Credit</p><br>
+            <p class="title">Credit</p><br>
             <p>In order to discuss the general<br>
             function of the logo, we must firstly<br>
             identify and define the environment<br>
             where this will have to fulfill its<br>
             function.</p><br><br>
-            <p class="tittle">Follow</p><br>
+            <p class="title">Follow</p><br>
             <img src="./assets/images/icons/Pinterest.png" alt="Pinterest">
             <img src="./assets/images/icons/linkedin.png" alt="linkedin">
             <img src="./assets/images/icons/google-plus.png" alt="google-plus"><br><br>
@@ -318,7 +326,7 @@
     </main>
 
     <!-- footer -->
-    <footer id="footer" class="footer">
+    <footer id="footer" class="main-footer">
       <div class="footer-introduction">
         <div>
           <p>CONTACT US</p><br>
