@@ -26,6 +26,7 @@ input {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+
   padding-bottom: 117px;
 }
 
@@ -184,11 +185,11 @@ input {
   font-weight: 400;
 }
 
-.our-team .container .name-career {
+.our-team .container .informations {
   margin: 4px 10px 10px 4px;
 }
 
-.our-team .container .name-career p {
+.our-team .container .informations p {
   max-width: 245px;
 }
 
@@ -198,20 +199,20 @@ input {
   padding:  28px 121px 45px 100px;
 }
 
-.our-team .container .images-1 .image {
+.our-team .container .images-1 .information-image {
   display: flex;
   text-align:left;
   margin-top: 25px;
 }
 
-.our-team .container .images-1 .image img {
+.our-team .container .images-1 .information-image img {
   width: 80px;
   height: 80px;
   margin-bottom: 10px;
   margin-right: 10px;
 }
 
-.our-team .container .images-1 .image img:active {
+.our-team .container .images-1 .information-image img:active {
   transform: scale(3.0);
 }
 
@@ -221,19 +222,19 @@ input {
   padding: 22px 110px 37px 100px;
 }
 
-.our-team .container .images-2 .image {
+.our-team .container .images-2 .information-image {
   display: flex;
   text-align:left;
 }
 
-.our-team .container .images-2 .image img {
+.our-team .container .images-2 .information-image img {
   width: 80px;
   height: 80px;
   margin-bottom: 10px;
   margin-right: 10px;
 }
 
-.our-team .container .images-2 .image img:active {
+.our-team .container .images-2 .information-image img:active {
   transform: scale(3.0);
 }
 /* -----------------------------------------------------------------------------------------------*\
@@ -610,14 +611,15 @@ input {
   padding-right: 5px;
 }
 .create-an-account a {
+  display: block;
   font-weight: 400;
-  margin: 18px 0px;
+  margin: 6px 0px;
   color: #ebcb80;
 }
 
 .create-an-account input {
   font-family: 'Roboto', sans-serif;
-  margin-bottom: 2.5px;
+  margin-bottom: 24px;
   width: 256px;
   height: 36px;
   padding: 5px 10px;
@@ -626,6 +628,7 @@ input {
 }
 
 .create-an-account .submit {
+  margin-top: 13px;
   width: 198px;
   height: 48px;
   padding: 10px 40px;
