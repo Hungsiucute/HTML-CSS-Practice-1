@@ -17,11 +17,12 @@
     <title>HTML-CSS-Practice-1</title>
   </head>
   <body>
+
     <!-- header --> 
     <header id="header" class="main-header">
 
       <!-- nav -->     
-      <nav class="nav">
+      <nav class="navication">
         <div class="nav-logo">
           <img class="logo" src="./assets/images/icons/logo.png" alt="logo">
         </div>
@@ -42,7 +43,7 @@
 
         <div class="header-button">
           <form action="#">
-            <input class="text" type="text" placeholder="Your email">
+            <input class="text" type="email" placeholder="Your email">
             <button class="submit" type="submit">find more</button>
           </form>
         </div>
@@ -67,7 +68,7 @@
 
           <div class="images-1">
               <div class="information-image">
-                  <img src="./assets/images/persons/Craig Todd.png" alt="Craig Todd">
+                  <img src="./assets/images/persons/craig-todd.png" alt="Craig Todd">
                   <div class="informations">
                       <p class="name">Craig Todd</p>
                       <p class="career">CEO</p>
@@ -78,7 +79,7 @@
               </div>
 
               <div class="information-image">
-                  <img src="./assets/images/persons/Vera Hopkins.png" alt="Vera Hopkins">
+                  <img src="./assets/images/persons/vera-hopkins.png" alt="Vera Hopkins">
                   <div class="informations">
                       <p class="name">Vera Hopkins</p>
                       <p class="career">UX Lead</p>
@@ -87,7 +88,7 @@
               </div>
 
               <div class="information-image">
-                  <img src="./assets/images/persons/Jennie Graham.png" alt="Jennie Graham">
+                  <img src="./assets/images/persons/jennie-graham.png" alt="Jennie Graham">
                   <div class="informations">
                       <p class="name">Jennie Graham</p>
                       <p class="career">UX/UI Designer</p>
@@ -99,7 +100,7 @@
           <div class="images-2">
 
               <div class="information-image">
-                  <img src="./assets/images/persons/Eunice Wong.png" alt="Eunice Wong">
+                  <img src="./assets/images/persons/eunice-wong.png" alt="Eunice Wong">
                   <div class="informations">
                       <p class="name">Eunice Wong</p>
                       <p class="career">Marketing consultant</p>
@@ -109,7 +110,7 @@
               </div>
 
               <div class="information-image">
-                  <img src="./assets/images/persons/Chase Meyer.png" alt="Chase Meyer">
+                  <img src="./assets/images/persons/chase-meyer.png" alt="Chase Meyer">
                   <div class="informations">
                       <p class="name">Chase Meyer</p>
                       <p class="career">Front-end Developer</p>
@@ -118,7 +119,7 @@
               </div>
 
               <div class="information-image">
-                  <img src="./assets/images/persons/Johnny Vargas.png" alt="Johnny Vargas">
+                  <img src="./assets/images/persons/johnny -vargas.png" alt="Johnny Vargas">
                   <div class="informations">
                       <p class="name">Johnny Vargas</p>
                       <p class="career">Back-end Developer</p>
@@ -128,6 +129,7 @@
           </div>
         </div>       
       </section>
+
     <!-- Section:Choose-Your-Plan --> 
       <section id="choose-your-plan" class="choose-your-plan">
 
@@ -160,9 +162,9 @@
         </div>
 
         <div class="information">
-          <button class="prev"><img src="./assets/images/cards/Prev.png" alt="prev"></button>
+          <button class="prev"><img src="./assets/images/cards/prev.png" alt="prev"></button>
           <div class="information-main">
-            <img src="./assets/images/persons/Ida Stephens.png" alt="Ida Stephens">
+            <img src="./assets/images/persons/ida-stephens.png" alt="Ida Stephens">
             <div>
                 <p class="information-name">Ida Stephens — Noir Project<p>                 
                 <p>“Conversations can be a tricky business. 
@@ -190,7 +192,7 @@
                 </div>
             </div>
           </div>
-          <button class="next"><img src="./assets/images/cards/Next.png" alt="next"></button>
+          <button class="next"><img src="./assets/images/cards/next.png" alt="next"></button>
         </div>
       </section>
 
@@ -260,61 +262,70 @@
         <p>Create An Account</p>
         <form action="#">
           <h3>SIGN UP</h3>
-          <input type="Text" placeholder="Email">
-          <input type="Password" placeholder="Password">
-          <input type="Password" placeholder="Comfirm Password">
+          <input type="email" placeholder="Email">
+          <input type="password" placeholder="Password">
+          <input type="password" placeholder="Comfirm Password">
           <a href="#">Already Have an account?</a>
-          <input class="submit" type="submit" value="SIGN UP">
+          <button class="submit" type="submit">sign up</button>
         </form>
       </section>
 
     <!-- Section:Contact -->
       <section id="contact" class="contact">
-        <h2>Contact Us</h2><br><br>
+        <h2 class="sub-contact">Contact Us</h2>
 
         <div class="contain">
           <div class="header-contact">
-            <p>Get in touch</p><br>
+            <p class="sub-header-contact">Get in touch</p>
             <ul class="location">
-              <li>2300 W Arbutus Dr Citrus Springs,<br> FL 34434, USA</li>
+              <li>2300 W Arbutus Dr Citrus Springs, FL 34434, USA</li>
             </ul><br>
             <ul class="mail">
               <li><a href="mailto:contact@hofmannui.net">contact@hofmannui.net</a></li>       
             </ul><br>
             <ul class="phone">
-              <li>793-891-7938<br>512-915-5628<br>952-775-6021</li>
+              <li>
+                <a href="tel: 793 891 7938">793-891-7938</a>
+                <a href="tel: 512 915 5628">512-915-5628</a>
+                <a href="tel: 952 775 6021">952-775-6021</a>
+              </li>
             </ul>
           </div>
 
           <div class="main-contact">
-            <form action="#">
-              <label for="name">
-                Name<br><br><input id="name" type="text" placeholder="Your name" value="Letha Terry">
-              </label><br>
-              <label for="mail">
-                Email<br><br><input id="mail" type="text" placeholder="Your email" value="letha.terry@ya">
-              </label><br>
-              <label for="message">
-                Message<br><br><textarea id="message"></textarea>
-              </label><br>
-              <input class="submit" type="submit" value="SUBMIT">
+            <form class="contact-us" action="#">
+              <div class="your-info">
+                <label for="name" class="get-info">
+                  Name<input class="name" id="name" type="text" placeholder="Your name" value="Letha Terry">
+                </label>
+                <label for="mail" class="get-info">
+                  Email<input class="mail" id="mail" type="text" placeholder="Your email" value="letha.terry@ya">
+              </div>
+              </label>
+              <label for="message" class="get-info">
+                Message<textarea class="message" id="message"></textarea>
+              </label>
+
+              <button class="submit" type="submit">submit</button>
             </form>
           </div>
 
           <div class="footer-contact">
-            <p class="title">Credit</p><br>
-            <p>In order to discuss the general<br>
-            function of the logo, we must firstly<br>
-            identify and define the environment<br>
-            where this will have to fulfill its<br>
-            function.</p><br><br>
-            <p class="title">Follow</p><br>
-            <img src="./assets/images/icons/Pinterest.png" alt="Pinterest">
-            <img src="./assets/images/icons/linkedin.png" alt="linkedin">
-            <img src="./assets/images/icons/google-plus.png" alt="google-plus"><br><br>
-            <img src="./assets/images/icons/instagram.png" alt="instagram">
-            <img src="./assets/images/icons/facebook.png" alt="facebook">
-            <img src="./assets/images/icons/twitter.png"alt="twitter">
+            <p class="title">Credits</p>
+            <p  class="content">In order to discuss the general
+            function of the logo, we must firstly
+            identify and define the environment
+            where this will have to fulfill its
+            function.</p>
+            <p class="title follow">Follow</p>
+            <div class="icons">
+              <img src="./assets/images/icons/Pinterest.png" alt="Pinterest">
+              <img src="./assets/images/icons/linkedin.png" alt="linkedin">
+              <img src="./assets/images/icons/google-plus.png" alt="google-plus">
+              <img src="./assets/images/icons/twitter.png"alt="twitter">
+              <img src="./assets/images/icons/facebook.png" alt="facebook">             
+              <img src="./assets/images/icons/instagram.png" alt="instagram">
+            </div>  
           </div>
 
         </div>
@@ -328,22 +339,22 @@
     <footer id="footer" class="main-footer">
       <div class="footer-introduction">
         <div>
-          <p>CONTACT US</p><br>
-          2300 W Arbutus<br>Dr Citrus Springs,<br>FL 34434, USA
+          <p>CONTACT US</p>
+          2300 W Arbutus Dr Citrus Springs, FL 34434, USA
         </div>
 
-        <div><br><br>+235<br>793-891-7938<br>contact@hofmannui.net</div>
+        <div>+235793-891-7938 contact@hofmannui.net</div>
 
         <div>
-          <p>FOLLOW US</p><br>
+          <p>FOLLOW US</p>
           <img src="./assets/images/icons/Pinterest-white.png" alt="Pinterest">
           <img src="./assets/images/icons/twitter-white.png" alt="twitter">
           <img src="./assets/images/icons/facebook-white.png" alt="facebook">
         </div>
 
         <div>
-          <p>ABOUT US</p><br>
-          Hoffman UI Kit was made to help you quickly<br>
+          <p>ABOUT US</p>
+          Hoffman UI Kit was made to help you quickly
           create beautiful layouts of responsive websites.
         </div>
 
