@@ -14,7 +14,9 @@ input {
   caret-color:#ff50d9;
   font-family: 'Roboto', sans-serif;
 }
-
+button:hover , a:hover {
+  cursor: pointer;
+}
 
 /* -----------------------------------------------------------------------------------------------*\
                                         # HEADER
@@ -55,10 +57,11 @@ input {
   line-height: 20.09px;
   text-transform: uppercase;
   font-size: 18px;
-  margin-top: 12px;
   list-style: none;
-  margin-left: 44px;
   letter-spacing: 1px;
+
+  margin-top: 12px;
+  margin-left: 44px;
 }
 
 .main-header .nav-link li:hover{
@@ -73,10 +76,11 @@ input {
 .main-header .nav-link .take-a-tour {
   list-style: none;
   letter-spacing: 0.05em;
-  text-transform: uppercase;
-  margin:0px 5px 2px 26px;
+  text-transform: uppercase; 
   font-size: 16px;
   line-height: 18.75px;
+
+  margin:0px 5px 2px 26px;
   padding: 12px 35px 8px 35px;
   border: 2px solid #fff;
   background-color: #4b4b4b;
@@ -137,25 +141,24 @@ input {
 }
 
 .main-header .header-button .submit:hover {
-  cursor: pointer;
   background-color: #4b4b4b;
   color: #f0f8ff;
 }
-.main-header .header-body .icons ul>li {
+.main-header .header-body .icons .icon-group>li {
   display: inline-block;
   margin: 1px 28px;
 }
 
-.main-header .header-body .icons ul>li img {
+.main-header .header-body .icons .icon-group>li img {
   width: 80px;
   height: 80px;
 }
 
-.main-header .header-body .icons ul {
+.main-header .header-body .icons .icon-group {
   text-align: center;
 }
 
-.main-header .header-body .icons ul>li:hover {
+.main-header .header-body .icons .icon-group>li:hover {
   transform: scale(1.2);
 }
 /* -----------------------------------------------------------------------------------------------*\
@@ -463,8 +466,9 @@ input {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.0625em;
-  padding-top: 25px;
   text-align: center;
+
+  padding-top: 25px;
 }
 
 .advantages img {
@@ -477,6 +481,7 @@ input {
   font-size: 18px;
   color: #ebcb80;
   line-height: 27px;
+
   padding-bottom: 22px;
 }
 
@@ -502,14 +507,15 @@ input {
 } 
 
 .advantages .container button {
+  word-spacing: -1px;
+  letter-spacing: 1px;
+
   margin-top: 28px;
   margin-left: 5px;
   background-color: #ebcb80;
   padding: 17px 54px 13px 54px;
   border: none;
   border-radius: 30px;
-  word-spacing: -1px;
-  letter-spacing: 1px;
 }
 
 .advantages .container button:hover {
@@ -538,8 +544,9 @@ input {
   font-size: 44px;
   line-height: 48px;
   font-weight: 400;
-  margin-left: 23px;
   letter-spacing: -0.0363636em;
+
+  margin-left: 23px;
 }
 
 .places ul {
@@ -548,11 +555,12 @@ input {
 }
 
 .places ul>li{
-  font-size: 18px;
   display: inline-block;
+  font-size: 18px;
   line-height: 27px;
-  margin: 0 21px;
   letter-spacing: 0.0555555em;
+
+  margin: 0 21px;
 }
 
 .places .images-places {
@@ -604,12 +612,13 @@ input {
 .create-an-account h3 {
   letter-spacing: 0.0555555em;
   font-weight: bold;
-  margin-bottom: 29px;
   color: #ebcb80;
   font-size: 18px;
   line-height: 27px;
   word-spacing: 6px;
+
   padding-right: 5px;
+  margin-bottom: 29px;
 }
 .create-an-account a {
   display: block;
@@ -620,6 +629,7 @@ input {
 
 .create-an-account input {
   font-family: 'Roboto', sans-serif;
+
   margin-bottom: 24px;
   width: 256px;
   height: 36px;
@@ -665,7 +675,7 @@ input {
 }
 
 .contact .sub-contact {
-  font-family: 'Roboto';
+  font-family: 'Roboto',sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 44px;
@@ -693,7 +703,7 @@ input {
 
 .header-contact .sub-header-contact {
   text-transform: capitalize;
-  font-family: 'Roboto';
+  font-family: 'Roboto',sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -713,12 +723,13 @@ input {
 }
 
 .header-contact .location>li, .header-contact .mail>li,.header-contact .phone>li  {
-  padding-left: 6px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+  
+  padding-left: 6px;
 }
 
 .header-contact .mail {
@@ -855,13 +866,17 @@ input {
   margin-right: 30px;
 }
 
+iframe {
+  display: block;
+}
+
 /* -----------------------------------------------------------------------------------------------*\
                                         #FOOTER
 \*----------------------------------------------------------------------------------------------- */
 .main-footer {
   background-color: #4b4b4b;
   color: #d1d1d1;
-  padding: 40px 80px 20px 80px;
+  padding: 55px 130px 50px 110px;
 }
 
 .main-footer .footer-introduction {
@@ -876,9 +891,7 @@ input {
 }
 
 .main-footer .footer-introduction img {
-  width: 14%;
-  height: 17%;
-  margin-right: 20px;
+  margin-right: 40px;
 }
 
 .main-footer .footer-link {
@@ -886,27 +899,72 @@ input {
   justify-content: space-between;
 }
 
-.main-footer .footer-link ul {
+.main-footer .footer-link .link-scroll {
+  margin-top: 8px;
+  margin-left: 45px;
   display: flex;
   list-style: none;
 }
 
-.main-footer .footer-link ul>li {
-  margin: 0 10px;
+.main-footer .footer-link .link-scroll>li {
+  margin-left: 42px;
   font-size: 18px;
 }
 
-.main-footer .footer-link ul a {
+.main-footer a {
   text-decoration: none;
   color: #fff;
 }
 
-.main-footer .footer-link ul>li:hover {
+.main-footer .footer-link .link-scroll>li:hover {
   border-bottom: 2px solid #fff;
 }
 
 .main-footer .line {
-  margin: 42px 50px 29px 50px;
+  margin: 42px 50px 20px 50px;
   background: #fff;
   height: 1px;
+}
+
+.body-footer {
+  max-width: 300px;
+}
+
+.footer-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.0555556em;
+
+  margin-bottom: 27px;
+}
+
+.body-footer-contact {
+  max-width: 125px;
+  margin-left: 40px;
+}
+
+.body-footer-address {
+  width: 125px;
+  margin-left: 65px;
+  margin-top: 35px;
+}
+.body-footer-icons {
+  margin-left: 175px;
+  width: 300px;
+}
+
+.body-footer-more {
+  width: 350px;
+  margin-right: 40px;
+}
+
+.day-nameweb {
+  margin: 10px 42px;
+}
+
+.go-to-top {
+  margin-right: 18px;
 }
